@@ -11,6 +11,7 @@
 		05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFAD942B7C3E9E00DF9556 /* ContentView.swift */; };
 		05DFAD972B7C3E9F00DF9556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */; };
 		05DFAD9A2B7C3E9F00DF9556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DFAD992B7C3E9F00DF9556 /* Preview Assets.xcassets */; };
+		05DFADA12B7C3EB500DF9556 /* VentanaModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFADA02B7C3EB500DF9556 /* VentanaModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		05DFAD942B7C3E9E00DF9556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05DFAD992B7C3E9F00DF9556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05DFADA02B7C3EB500DF9556 /* VentanaModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentanaModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */,
 				05DFAD942B7C3E9E00DF9556 /* ContentView.swift */,
+				05DFADA02B7C3EB500DF9556 /* VentanaModal.swift */,
 				05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */,
 				05DFAD982B7C3E9F00DF9556 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */,
+				05DFADA12B7C3EB500DF9556 /* VentanaModal.swift in Sources */,
 				05DFAD932B7C3E9E00DF9556 /* DemoNavSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

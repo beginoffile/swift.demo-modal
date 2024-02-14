@@ -2,20 +2,23 @@
 //  ContentView.swift
 //  DemoNavSwift
 //
-//  Created by Aguid Ramirez Sanchez on 13/02/24.
+//  Created by Cesar PaezTerminalScript.shTerminalScript.sh on 13/02/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var bShow = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+       
+        VStack{
+            Button("Abrir Modal"){
+                bShow.toggle()
+            }
+            .sheet(isPresented: $bShow, content: {
+                VentanaModal()
+            })
         }
-        .padding()
     }
 }
 
