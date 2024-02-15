@@ -10,14 +10,18 @@ import SwiftUI
 struct ContentView: View {
     @State private var bShow = false
     var body: some View {
-       
-        VStack{
-            Button("Abrir Modal"){
-                bShow.toggle()
-            }
-            .sheet(isPresented: $bShow, content: {
-                VentanaModal()
-            })
+        NavigationStack{
+            VStack{
+                Button("Abrir Modal"){
+                    bShow.toggle()
+                }
+                .sheet(isPresented: $bShow, content: {
+                    VentanaModal()
+                })
+            }.navigationTitle("Primera view")
+            NavigationLink("Segunda vista", value: "hola")
+                .navigationDestination(for: String.self) { value in
+                    SegundaVista()                }
         }
     }
 }

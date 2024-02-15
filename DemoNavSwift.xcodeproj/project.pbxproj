@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BE290B2B7D92180080D8EA /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE290A2B7D92180080D8EA /* SegundaVista.swift */; };
 		05DFAD932B7C3E9E00DF9556 /* DemoNavSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */; };
 		05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFAD942B7C3E9E00DF9556 /* ContentView.swift */; };
 		05DFAD972B7C3E9F00DF9556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BE290A2B7D92180080D8EA /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
 		05DFAD8F2B7C3E9E00DF9556 /* DemoNavSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoNavSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNavSwiftApp.swift; sourceTree = "<group>"; };
 		05DFAD942B7C3E9E00DF9556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */,
 				05DFAD942B7C3E9E00DF9556 /* ContentView.swift */,
 				05DFADA02B7C3EB500DF9556 /* VentanaModal.swift */,
+				05BE290A2B7D92180080D8EA /* SegundaVista.swift */,
 				05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */,
 				05DFAD982B7C3E9F00DF9556 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */,
 				05DFADA12B7C3EB500DF9556 /* VentanaModal.swift in Sources */,
 				05DFAD932B7C3E9E00DF9556 /* DemoNavSwiftApp.swift in Sources */,
+				05BE290B2B7D92180080D8EA /* SegundaVista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
