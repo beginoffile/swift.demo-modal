@@ -18,10 +18,18 @@ struct ContentView: View {
                 .sheet(isPresented: $bShow, content: {
                     VentanaModal()
                 })
+                NavigationLink("Segunda vista", value: "v1")
+                NavigationLink("Terrcer Vista", value: "v2")
             }.navigationTitle("Primera view")
-            NavigationLink("Segunda vista", value: "hola")
-                .navigationDestination(for: String.self) { value in
-                    SegundaVista()                }
+           
+            .navigationDestination(for: String.self) { value in
+                if value=="v1"{
+                    SegundaVista()
+                }else{
+                    Text("Tercer vista \(value)")
+                }
+
+            }
         }
     }
 }
