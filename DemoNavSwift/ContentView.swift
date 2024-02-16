@@ -30,6 +30,13 @@ struct ContentView: View {
                 }
 
             }
+            .toolbar(content: {
+                HStack{
+                    NavigationLink("+", value: "v1")
+                    NavigationLink("-", value: "v2")
+                }
+                
+            })
         }
     }
 }
