@@ -11,7 +11,8 @@ import SwiftUI
 struct DemoNavSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            TabViewMain()
         }
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AC7C8E2B8042B200A91A69 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC7C8D2B8042B200A91A69 /* TabViewMain.swift */; };
+		05AC7C902B8042C800A91A69 /* Vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC7C8F2B8042C800A91A69 /* Vista2.swift */; };
+		05AC7C922B80442A00A91A69 /* TercerVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC7C912B80442A00A91A69 /* TercerVista.swift */; };
 		05BE290B2B7D92180080D8EA /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BE290A2B7D92180080D8EA /* SegundaVista.swift */; };
 		05DFAD932B7C3E9E00DF9556 /* DemoNavSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */; };
 		05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DFAD942B7C3E9E00DF9556 /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05AC7C8D2B8042B200A91A69 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		05AC7C8F2B8042C800A91A69 /* Vista2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista2.swift; sourceTree = "<group>"; };
+		05AC7C912B80442A00A91A69 /* TercerVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerVista.swift; sourceTree = "<group>"; };
 		05BE290A2B7D92180080D8EA /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
 		05DFAD8F2B7C3E9E00DF9556 /* DemoNavSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoNavSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DFAD922B7C3E9E00DF9556 /* DemoNavSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNavSwiftApp.swift; sourceTree = "<group>"; };
@@ -59,8 +65,11 @@
 				05DFAD942B7C3E9E00DF9556 /* ContentView.swift */,
 				05DFADA02B7C3EB500DF9556 /* VentanaModal.swift */,
 				05BE290A2B7D92180080D8EA /* SegundaVista.swift */,
+				05AC7C912B80442A00A91A69 /* TercerVista.swift */,
 				05DFAD962B7C3E9F00DF9556 /* Assets.xcassets */,
 				05DFAD982B7C3E9F00DF9556 /* Preview Content */,
+				05AC7C8D2B8042B200A91A69 /* TabViewMain.swift */,
+				05AC7C8F2B8042C800A91A69 /* Vista2.swift */,
 			);
 			path = DemoNavSwift;
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				05DFAD952B7C3E9E00DF9556 /* ContentView.swift in Sources */,
+				05AC7C922B80442A00A91A69 /* TercerVista.swift in Sources */,
 				05DFADA12B7C3EB500DF9556 /* VentanaModal.swift in Sources */,
+				05AC7C902B8042C800A91A69 /* Vista2.swift in Sources */,
 				05DFAD932B7C3E9E00DF9556 /* DemoNavSwiftApp.swift in Sources */,
 				05BE290B2B7D92180080D8EA /* SegundaVista.swift in Sources */,
+				05AC7C8E2B8042B200A91A69 /* TabViewMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

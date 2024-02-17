@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct SegundaVista: View {
+    var texto: String
     var body: some View {
-        Text("Segunda Vista").navigationTitle("Segunda vista")
+        Text(texto).navigationTitle(texto)
     }
 }
 
